@@ -1,0 +1,53 @@
+.parent{
+    background-color: black;
+    height: 40px;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position:fixed;
+   left: 0px;
+   top: 0px;
+   width: 100%;
+}
+@media(max-width:400px) {
+   .parent{
+    flex-flow: column;
+    height: auto;
+    align-items: center;
+   }
+} 
+@media(max-width:400px) {
+    .parent2{
+        flex-flow: column;
+        height: auto;
+        align-items: center;
+       /* border: 0.1px solid white; */
+    }
+}
+#one{
+    color: rgb(222, 85, 17);
+    position: relative;
+    left: 0px;
+}
+
+
+.parent2{
+    color: rgb(240, 248, 255);
+    display: flex;
+    width: 400px;
+    /* background-color: antiquewhite; */
+    justify-content: space-between;
+   
+}
+/* @media(max-width:400px) {
+    .h{
+     border: 1px solid white;
+     
+     }
+ }  */
+button{
+    background-color: rgb(255, 115, 0);
+    color: aliceblue;
+  position: relative;
+  right: 0px;
+}

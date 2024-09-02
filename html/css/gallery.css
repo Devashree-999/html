@@ -1,0 +1,31 @@
+.picture{
+   text-align: center;
+    font-size: 30px;
+    height: 300px;
+    
+}
+.nav{
+    display: flex;
+    justify-content: end;
+    position: sticky;
+    top: 0px;
+    height: 35px;
+    align-items: center;
+    background-color: white;
+}
+.icons{
+display: flex;
+width: 90px;
+justify-content: space-between;
+
+}
+.images{
+    h5{
+        font-size: 20px;
+    }
+}
+.today{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+}

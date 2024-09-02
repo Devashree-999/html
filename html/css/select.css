@@ -1,0 +1,88 @@
+/* h1{
+    background-color: brown;
+} */
+ /* #a{
+    background-color: blue;
+ } */
+  /* .b{
+    background-color: blueviolet;
+  } */
+  /* by name */
+  /* a{
+    background-color: bisque;
+  } */
+  /* by attribute */
+  /* a[
+    href='http://google.com']{
+        background-color: rgb(255, 0, 76);
+    } */
+  /* starting letter compare */
+  /* a[href^='http']{
+    background-color: brown;
+  } */
+  /* ending word match */
+  /* a[href$='.com']{
+    background-color: blueviolet;
+  } */
+  /* matching with string */
+  /* a[href*='facebook']{
+    background-color: rgb(246, 24, 42)  ;
+  } */
+  /* applied to all accept html */
+  /* *{
+    background-color: antiquewhite;
+
+  } */
+  /* descendant selector
+  when we select two tags combine */
+  /* div p{
+    background-color: aqua;
+  }
+  span p{
+    background-color: azure;
+  } */
+  /* ol >li{
+    border: 2px solid red;
+  }
+  div{
+    background-color: blueviolet;
+    height: 100px;
+    width: 100;
+    transition: 4s;
+  }
+  div:hover{
+    background-color: black;
+    border-radius: 60%;
+  } */
+   /* li:first-child{
+    background-color: aqua;
+   } */
+    /* li:nth-of-type(odd){
+      background-color: blue;
+
+    }
+    li:nth-of-type(even){
+      background-color: blueviolet;
+    } */
+     /* #parent{
+      height: 100px;
+      width: 100px;
+      background-color: blueviolet;
+
+     }
+     #child{
+      height: 50%;
+      width: 50%;
+      background-color: blanchedalmond;
+     } */
+      /* #parent{
+        height: 100vh;
+        width: 100vw;
+        background-color: black;
+      } */
+       li{
+        font-size: 2em;
+       }
+       li{
+        font-size: 2rem;
+       }
